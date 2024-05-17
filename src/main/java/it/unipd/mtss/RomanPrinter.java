@@ -12,19 +12,29 @@ public class RomanPrinter {
     }
 
     static String[] I = " _____ \n|_   _|\n  | |  \n  | |  \n _| |_ \n|_____|\n".split("\n");
+    static String[] V = "__      __\n\\ \\    / /\n \\ \\  / / \n  \\ \\/ /  \n   \\  /   \n    \\/    \n".split("\n");
 
     private static String printAsciiArt(String romanNumber){
-        if (romanNumber == "Numero non valido"){
-            return ("Numero non valido");
+        if (romanNumber =="Numero non valido"){
+            return romanNumber;
         }
         int lung=romanNumber.length();
         StringBuilder asciiArt=new StringBuilder();
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < lung; j++) {
-                asciiArt.append(I[i]);
+                char c = romanNumber.charAt(j);
+                switch(c) {
+                    case 'I':
+                        asciiArt.append(I[i]);
+                        break;
+                    case 'V':
+                        asciiArt.append(V[i]);
+                        break;
+                }
             }
             asciiArt.append("\n");
         }
         return asciiArt.toString();
     }
+
 }
