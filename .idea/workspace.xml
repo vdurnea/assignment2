@@ -4,18 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f7b94d-638d-4e77-b0af-143a097e82e8" name="Changes" comment="" />
+    <list default="true" id="b7f7b94d-638d-4e77-b0af-143a097e82e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/IntegerToRomanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/AppTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gbBNjsWmkW5sGMkD0wYg18hph9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,9 +36,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/feature3",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/victoriadurnea/roman-number",
+    "last_opened_file_path": "C:/Users/cater/roman-number",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -48,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715956358097</updated>
       <workItem from="1715956359137" duration="8000" />
+      <workItem from="1715957227472" duration="844000" />
     </task>
     <servers />
   </component>
