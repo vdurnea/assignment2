@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f7b94d-638d-4e77-b0af-143a097e82e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/RomanPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/RomanPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/RomanPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/RomanPrinterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/it/unipd/mtss/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/unipd/mtss/IntegerToRoman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/it/unipd/mtss/RomanPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/unipd/mtss/RomanPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/it/unipd/mtss/IntegerToRomanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/it/unipd/mtss/IntegerToRomanTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/it/unipd/mtss/RomanPrinterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/it/unipd/mtss/RomanPrinterTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="b7f7b94d-638d-4e77-b0af-143a097e82e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +36,7 @@
     "JUnit.IntegerToRomanTest.executor": "Coverage",
     "JUnit.RomanPrinterTest.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/feature7",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/victoriadurnea/roman-number",
     "node.js.detected.package.eslint": "true",
@@ -82,10 +74,10 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/roman_number$IntegerToRomanTest.ic" NAME="IntegerToRomanTest Coverage Results" MODIFIED="1715961849956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/roman_number$RomanPrinterTest.ic" NAME="RomanPrinterTest Coverage Results" MODIFIED="1715960268098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>it.unipd.mtss.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/roman_number$RomanPrinterTest.ic" NAME="RomanPrinterTest Coverage Results" MODIFIED="1715963076944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/roman_number$IntegerToRomanTest.ic" NAME="IntegerToRomanTest Coverage Results" MODIFIED="1715962197934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>it.unipd.mtss.*</FILTER>
     </SUITE>
   </component>
