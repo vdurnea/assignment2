@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f7b94d-638d-4e77-b0af-143a097e82e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/IntegerToRomanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/AppTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b7f7b94d-638d-4e77-b0af-143a097e82e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,10 +30,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.IntegerToRomanTest.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/feature3",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cater/roman-number",
+    "last_opened_file_path": "C:/Users/cater/prova",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,11 +60,16 @@
       <option name="presentableId" value="Default" />
       <updated>1715956358097</updated>
       <workItem from="1715956359137" duration="8000" />
-      <workItem from="1715957227472" duration="844000" />
+      <workItem from="1715957227472" duration="1767000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/roman_number$IntegerToRomanTest.ic" NAME="IntegerToRomanTest Coverage Results" MODIFIED="1715958529360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>it.unipd.mtss.*</FILTER>
+    </SUITE>
   </component>
 </project>
