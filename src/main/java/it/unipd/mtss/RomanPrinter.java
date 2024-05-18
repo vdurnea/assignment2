@@ -13,6 +13,7 @@ public class RomanPrinter {
 
     static String[] I = " _____ \n|_   _|\n  | |  \n  | |  \n _| |_ \n|_____|\n".split("\n");
     static String[] V = "__      __\n\\ \\    / /\n \\ \\  / / \n  \\ \\/ /  \n   \\  /   \n    \\/    \n".split("\n");
+    static String[] X = " __   __\n \\ \\ / /\n  \\ V / \n   > <  \n  / . \\ \n /_/ \\_\\\n".split("\n");
 
     private static String printAsciiArt(String romanNumber){
         if (romanNumber =="Numero non valido"){
@@ -29,6 +30,9 @@ public class RomanPrinter {
                         break;
                     case 'V':
                         asciiArt.append(V[i]);
+                        break;
+                    case 'X':
+                        asciiArt.append(X[i]);
                         break;
                 }
             }
