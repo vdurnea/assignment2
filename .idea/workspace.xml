@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f7b94d-638d-4e77-b0af-143a097e82e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/IntegerToRoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/IntegerToRomanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/IntegerToRomanTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b7f7b94d-638d-4e77-b0af-143a097e82e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,22 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.IntegerToRomanTest.executor": "Coverage",
-    "JUnit.RomanPrinterTest.executor": "Coverage",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cater/roman-number",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.IntegerToRomanTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.RomanPrinterTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cater/roman-number&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,7 +67,7 @@
       <workItem from="1715957227472" duration="1767000" />
       <workItem from="1715957227472" duration="844000" />
       <workItem from="1715958839155" duration="1535000" />
-      <workItem from="1716020857101" duration="1663000" />
+      <workItem from="1716020857101" duration="2251000" />
     </task>
     <servers />
   </component>
@@ -78,10 +75,10 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/roman_number$RomanPrinterTest.ic" NAME="RomanPrinterTest Coverage Results" MODIFIED="1716021202595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/roman_number$IntegerToRomanTest.ic" NAME="IntegerToRomanTest Coverage Results" MODIFIED="1715962197934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>it.unipd.mtss.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/roman_number$IntegerToRomanTest.ic" NAME="IntegerToRomanTest Coverage Results" MODIFIED="1716022349482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/roman_number$RomanPrinterTest.ic" NAME="RomanPrinterTest Coverage Results" MODIFIED="1716022916103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>it.unipd.mtss.*</FILTER>
     </SUITE>
   </component>
