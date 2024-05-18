@@ -18,11 +18,15 @@ public class IntegerToRomanTest {
         assertEquals("IX", IntegerToRoman.convert(9));
         assertEquals("X", IntegerToRoman.convert(10));
         assertEquals("XI", IntegerToRoman.convert(11));
-        assertEquals("XIV", IntegerToRoman.convert(14));
         assertEquals("XVI", IntegerToRoman.convert(16));
-        assertEquals("XIX", IntegerToRoman.convert(19));
-        assertEquals("XX", IntegerToRoman.convert(20));
-        assertEquals("Numero non valido", IntegerToRoman.convert(21));
+        assertEquals("XXI", IntegerToRoman.convert(21));
+        assertEquals("XXIV", IntegerToRoman.convert(24));
+        assertEquals("XXIX", IntegerToRoman.convert(29));
+        assertEquals("XXX", IntegerToRoman.convert(30));
+        assertEquals("XL", IntegerToRoman.convert(40));
+        assertEquals("XLIX", IntegerToRoman.convert(49));
+        assertEquals("L", IntegerToRoman.convert(50));
+        assertEquals("Numero non valido", IntegerToRoman.convert(51));
         assertEquals("Numero non valido", IntegerToRoman.convert(0));
     }
 }
