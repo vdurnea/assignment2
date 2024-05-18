@@ -17,6 +17,7 @@ public class RomanPrinter {
     static String[] L = "  _      \n | |     \n | |     \n | |     \n | |____ \n |______|\n".split("\n");
     static String[] C = "   _____ \n  / ____|\n | |     \n | |     \n | |____ \n  \\_____|\n".split("\n");
     static String[] D = "  _____  \n |  __ \\ \n | |  | |\n | |  | |\n | |__| |\n |_____/ \n".split("\n");
+    static String[] M = "  __  __ \n |  \\/  |\n | \\  / |\n | |\\/| |\n | |  | |\n |_|  |_|\n".split("\n");
 
     private static String printAsciiArt(String romanNumber){
         if (romanNumber =="Numero non valido"){
@@ -45,6 +46,9 @@ public class RomanPrinter {
                         break;
                     case 'D':
                         asciiArt.append(D[i]);
+                        break;
+                    case 'M':
+                        asciiArt.append(M[i]);
                         break;
                 }
             }

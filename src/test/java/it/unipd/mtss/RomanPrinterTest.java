@@ -10,7 +10,7 @@ import org.junit.Test;
 public class RomanPrinterTest {
 
     @Test
-     public void testPrint1to500(){
+     public void testPrint1to1000(){
 
         assertEquals(" _____ \n" + "|_   _|\n" + "  | |  \n" + "  | |  \n" + " _| |_ \n" + "|_____|\n", RomanPrinter.print(1));
         assertEquals("__      __\n" + "\\ \\    / /\n" + " \\ \\  / / \n" + "  \\ \\/ /  \n" + "   \\  /   \n" + "    \\/    \n", RomanPrinter.print(5));
@@ -24,9 +24,12 @@ public class RomanPrinterTest {
         assertEquals("  _      \n" + " | |     \n" + " | |     \n" + " | |     \n" + " | |____ \n" + " |______|\n", RomanPrinter.print(50));
         assertEquals(" __   __   _____ \n" + " \\ \\ / /  / ____|\n" + "  \\ V /  | |     \n" + "   > <   | |     \n" + "  / . \\  | |____ \n" + " /_/ \\_\\  \\_____|\n", RomanPrinter.print(90));
         assertEquals("   _____ \n" + "  / ____|\n" + " | |     \n" + " | |     \n" + " | |____ \n" + "  \\_____|\n", RomanPrinter.print(100));
-       assertEquals("   _____   _____  \n" + "  / ____| |  __ \\ \n" + " | |      | |  | |\n" + " | |      | |  | |\n" + " | |____  | |__| |\n" + "  \\_____| |_____/ \n", RomanPrinter.print(400));
-       assertEquals("  _____  \n" + " |  __ \\ \n" + " | |  | |\n" + " | |  | |\n" + " | |__| |\n" + " |_____/ \n", RomanPrinter.print(500));
-       assertEquals("Numero non valido", RomanPrinter.print(0));
+        assertEquals("   _____   _____  \n" + "  / ____| |  __ \\ \n" + " | |      | |  | |\n" + " | |      | |  | |\n" + " | |____  | |__| |\n" + "  \\_____| |_____/ \n", RomanPrinter.print(400));
+        assertEquals("  _____  \n" + " |  __ \\ \n" + " | |  | |\n" + " | |  | |\n" + " | |__| |\n" + " |_____/ \n", RomanPrinter.print(500));
+        assertEquals("   _____   __  __ \n" + "  / ____| |  \\/  |\n" + " | |      | \\  / |\n" + " | |      | |\\/| |\n" + " | |____  | |  | |\n" + "  \\_____| |_|  |_|\n", RomanPrinter.print(900));
+        assertEquals("  __  __ \n" + " |  \\/  |\n" + " | \\  / |\n" + " | |\\/| |\n" + " | |  | |\n" + " |_|  |_|\n", RomanPrinter.print(1000));
+
+        assertEquals("Numero non valido", RomanPrinter.print(0));
         assertEquals("Numero non valido", RomanPrinter.print(1001));
 
     }
