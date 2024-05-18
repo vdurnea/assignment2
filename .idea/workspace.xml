@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7f7b94d-638d-4e77-b0af-143a097e82e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/IntegerToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/RomanPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unipd/mtss/RomanPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/RomanPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/unipd/mtss/RomanPrinterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <workItem from="1715957227472" duration="1767000" />
       <workItem from="1715957227472" duration="844000" />
       <workItem from="1715958839155" duration="1535000" />
-      <workItem from="1716020857101" duration="2921000" />
+      <workItem from="1716020857101" duration="3605000" />
     </task>
     <servers />
   </component>
@@ -77,10 +78,10 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/roman_number$RomanPrinterTest.ic" NAME="RomanPrinterTest Coverage Results" MODIFIED="1716021202595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/roman_number$IntegerToRomanTest.ic" NAME="IntegerToRomanTest Coverage Results" MODIFIED="1715962197934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>it.unipd.mtss.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/roman_number$IntegerToRomanTest.ic" NAME="IntegerToRomanTest Coverage Results" MODIFIED="1716023990968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/roman_number$RomanPrinterTest.ic" NAME="RomanPrinterTest Coverage Results" MODIFIED="1716024336896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>it.unipd.mtss.*</FILTER>
     </SUITE>
   </component>
